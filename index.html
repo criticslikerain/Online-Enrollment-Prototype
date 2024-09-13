@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Online Enrollment Registration for Upcoming First Year Students</title>
+        <link rel="stylesheet" href="main page.css"> 
+        
+        <!--icons-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="icon"  href="favicon-16x16.png">
+        <link rel="icon"  href="favicon-32x32.png">
+        <link rel="icon"  href="android-chrome-192x192.png">
+        <link rel="icon"  href="android-chrome-512x512.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar"> 
+                <a href="#" class="nav_logo">                  
+                    <img class = "logo" src="/assets/download-removebg-preview.png" alt=" Benedicto College" >
+                </a>
+                
+                <ul class="nav_items">
+                    <li class="nav_item">
+                    <a href="index.html" class="nav_link">Home</a>
+                    <a href="registration.html" class="nav_link">Registration</a>
+                    <a href="about.html" class="nav_link">About</a>
+                    <a href="contact.html" class="nav_link">Contact</a>
+                </li>
+            </ul>
+
+            <button class="button_nav" id="form-open">LOG IN</button>
+            
+        </nav>
+        <button class="Enroll_Now" onclick="Registration()">
+            <strong>Enroll Now!
+            </strong>
+        </button>
+    </header>   
+
+   
+    
+   
+    <div class="welcome-container">
+      
+       <h1>Welcome</h1>
+        <p>Online Enrollment Registration for Upcoming First Year Students!<br>
+            We are excited to have you join our academic community. To get started, Click the Login above.</p>
+       </div>
+     
+
+        <section class="home">
+        <div class="form_container">
+            <i class="uil uil-times form_close"></i>
+           
+        
+            
+            <div class="form login_form">
+               
+                <form action="#">
+                    <h2>Login</h2> 
+                   
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required/>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter your password" required/>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                   
+                    <div class="option_field">
+                        <span class="checkbook">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot password?</a>
+                    </div>
+
+                    <button class="button">Login Now</button>
+
+                    <div class="login_signup">
+                        Don't have an account? <a href="#" id="signup"> Signup</a></div>
+                </form>
+            </div>
+
+          
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                   
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter your email" required/>
+                        <i class="uil uil-envelope-alt email"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Create password" required/>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm password" required/>
+                        <i class="uil uil-lock password"></i>
+                        <i class="uil uil-eye-slash pw_hide"></i>
+                    </div>
+
+                    <button class="button">Signup Now</button>
+
+                    <div class="login_signup">
+                        Already have an account? <a href="#" id="login">Login</a></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="main page.js"></script>
+
+</body>
+</html>
+        
+        
